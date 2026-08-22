@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <rect width="72" height="72" rx="18" fill="#0C1B17"/>
+  <rect width="72" height="72" rx="18" fill="#2ECC71" opacity="0.12"/>
+  <g transform="translate(15, 16)">
+    <!-- XGBoost Tree & Gradient Chevron Emblem -->
+    <path fill="#2ECC71" d="M21 0L0 12l5 2.8L21 5.6l16 9.2 5-2.8L21 0z"/>
+    <path fill="#27AE60" d="M21 10L5 19.2l5 2.8 11-6.4 11 6.4 5-2.8L21 10z"/>
+    <path fill="#1ABC9C" d="M21 20L10 26.4l5 2.8 6-3.5 6 3.5 5-2.8L21 20z"/>
+    <path fill="#16A085" d="M21 30l-5 2.9 5 2.9 5-2.9-5-2.9z"/>
+    <!-- Base Trunk / Chevron -->
+    <path fill="#2ECC71" d="M19 33h4v7h-4z"/>
+  </g>
+</svg>

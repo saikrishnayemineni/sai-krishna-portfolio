@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <rect width="72" height="72" rx="18" fill="#1C1917"/>
+  <rect width="72" height="72" rx="18" fill="#FFD21E" opacity="0.12"/>
+  <g transform="translate(14, 14)">
+    <!-- HuggingFace head -->
+    <path fill="#FFD21E" d="M22 2C10.954 2 2 10.954 2 22s8.954 20 20 20 20-8.954 20-20S33.046 2 22 2z"/>
+    <!-- HuggingFace smile -->
+    <path fill="#000000" d="M13 25c0 5 4 8 9 8s9-3 9-8H13z"/>
+    <!-- HuggingFace tongue -->
+    <path fill="#FF6B6B" d="M18 29c1.5 2 3.5 3 4 3s2.5-1 4-3h-8z"/>
+    <!-- HuggingFace eyes -->
+    <ellipse cx="14.5" cy="18" rx="2.5" ry="3.5" fill="#000000"/>
+    <ellipse cx="29.5" cy="18" rx="2.5" ry="3.5" fill="#000000"/>
+    <circle cx="15.5" cy="17" r="1" fill="#FFFFFF"/>
+    <circle cx="30.5" cy="17" r="1" fill="#FFFFFF"/>
+    <!-- HuggingFace hands -->
+    <path fill="#FFD21E" stroke="#E6B800" stroke-width="1.5" d="M4 27c-2 2-3 5-1 7s5 1 7-1l-6-6zm36 0c2 2 3 5 1 7s-5 1-7-1l6-6z"/>
+  </g>
+</svg>

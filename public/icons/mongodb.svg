@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <rect width="72" height="72" rx="18" fill="#0C1B12"/>
+  <rect width="72" height="72" rx="18" fill="#47A248" opacity="0.12"/>
+  <g transform="translate(18, 12)">
+    <!-- Leaf Spine & Left Leaf -->
+    <path fill="#13AA52" d="M18 0C17.3 0 1.8 14.6 1.8 28.5c0 8.7 6.8 15.5 15.7 15.5h.5V0z"/>
+    <!-- Right Leaf -->
+    <path fill="#00684A" d="M18 0v44c8.9 0 15.7-6.8 15.7-15.5C33.7 14.6 18.7 0 18 0z"/>
+    <!-- Leaf Center Stem Accent -->
+    <path fill="#FFFFFF" opacity="0.3" d="M17.5 7v35h1V7z"/>
+  </g>
+</svg>

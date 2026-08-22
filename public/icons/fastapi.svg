@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <rect width="72" height="72" rx="18" fill="#0A1D1A"/>
+  <rect width="72" height="72" rx="18" fill="#009688" opacity="0.12"/>
+  <g transform="translate(15, 15)">
+    <!-- Teal Circle -->
+    <circle cx="21" cy="21" r="21" fill="#009688"/>
+    <!-- White Lightning Bolt -->
+    <path fill="#FFFFFF" d="M23 7L11 23h9l-2 13 14-18h-9l2-11z"/>
+  </g>
+</svg>

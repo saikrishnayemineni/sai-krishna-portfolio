@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <rect width="72" height="72" rx="18" fill="#1C1812"/>
+  <rect width="72" height="72" rx="18" fill="#FF6F00" opacity="0.12"/>
+  <g transform="translate(16, 14)">
+    <!-- TensorFlow Left facet -->
+    <path fill="#FF6F00" d="M0 8.8l17.8-10.3v35.6l-8.9-5.1V14.1L0 19.2V8.8z"/>
+    <!-- TensorFlow Right facet -->
+    <path fill="#FFA000" d="M35.6 8.8L17.8-1.5v35.6l8.9-5.1V14.1l8.9 5.1V8.8z"/>
+    <!-- TensorFlow Center facet -->
+    <path fill="#FFC107" d="M17.8 9L8.9 14.1l8.9 5.1 8.9-5.1L17.8 9z"/>
+    <!-- TensorFlow Bottom stem -->
+    <path fill="#FF8F00" d="M17.8 24.5l-8.9-5.1v10.3l8.9 5.1 8.9-5.1V19.4l-8.9 5.1z"/>
+  </g>
+</svg>
