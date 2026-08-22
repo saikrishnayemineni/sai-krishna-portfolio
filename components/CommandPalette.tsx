@@ -16,7 +16,9 @@ import {
   ArrowRight,
   Sparkles,
   X,
-  GraduationCap
+  GraduationCap,
+  Database,
+  Zap
 } from "lucide-react";
 
 interface ActionItem {
