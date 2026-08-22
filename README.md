@@ -12,7 +12,7 @@
   <b>Production-grade, highly interactive Bento Grid portfolio showcasing Enterprise Agentic AI, LLMOps, RAG Architecture, and Healthcare ML Systems.</b>
 </p>
 
-[✨ Live Demo](https://sai-krishna-portfolio.vercel.app) • [💼 LinkedIn](https://www.linkedin.com/in/sai-krishna-yemineni) • [📬 Email](mailto:saikrishnayemineni0428@gmail.com) • [📄 Resume](public/Sai_Krishna_Yemineni_Resume.pdf)
+[✨ Live Demo](https://sai-krishna-portfolio-drab.vercel.app) • [💼 LinkedIn](https://www.linkedin.com/in/sai-krishna-yemineni) • [📬 Email](mailto:saikrishnayemineni0428@gmail.com) • [📄 Resume](public/Sai_Krishna_Yemineni_Resume.pdf)
 
 </div>
 
@@ -145,7 +145,7 @@ This project is optimized for deployment on **[Vercel](https://vercel.com/)**:
 **Sai Krishna Yemineni** — *Production AI/ML Engineer*  
 Ex-Deloitte | Johnson & Johnson
 
-- 🌐 **Portfolio**: [sai-krishna-portfolio.vercel.app](https://sai-krishna-portfolio.vercel.app)
+- 🌐 **Portfolio**: [sai-krishna-portfolio-drab.vercel.app](https://sai-krishna-portfolio-drab.vercel.app)
 - 💼 **LinkedIn**: [linkedin.com/in/sai-krishna-yemineni](https://www.linkedin.com/in/sai-krishna-yemineni)
 - 🐙 **GitHub**: [@saikrishnayemineni](https://github.com/saikrishnayemineni)
 - 📧 **Email**: [saikrishnayemineni0428@gmail.com](mailto:saikrishnayemineni0428@gmail.com)

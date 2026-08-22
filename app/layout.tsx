@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sai-krishna-portfolio-drab.vercel.app"),
   title: "Sai Krishna Yemineni · Production AI/ML Engineer | Agentic AI & RAG",
   description: "AI/ML Engineer at Johnson & Johnson (Ex-Deloitte) with 4+ years of experience building production Agentic AI systems, High-Throughput RAG, Generative AI, MLOps, and Healthcare Data Pipelines. Actively seeking new opportunities.",
   keywords: [
