@@ -705,7 +705,7 @@ export default function Portfolio() {
                 <ExternalLink size={15} /> Request Demo Walkthrough
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/saikrishnayemineni/agentic-clinical-triage"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="focus-ring inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-950/80 px-4 py-2.5 text-xs font-semibold text-zinc-300 hover:bg-zinc-900 hover:text-white transition-all"

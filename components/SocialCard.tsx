@@ -25,10 +25,10 @@ const socials: SocialItem[] = [
   },
   {
     name: "GitHub",
-    subtitle: "System Repositories & Agentic AI Code",
-    href: "https://github.com",
+    subtitle: "@saikrishnayemineni",
+    href: "https://github.com/saikrishnayemineni",
     icon: Github,
-    badge: "Code",
+    badge: "10+ Repos",
     color: "group-hover:border-zinc-500/50 group-hover:bg-zinc-800/60 group-hover:text-white",
     glow: "rgba(255, 255, 255, 0.15)"
   },

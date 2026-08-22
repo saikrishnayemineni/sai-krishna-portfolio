@@ -174,7 +174,7 @@ export function CommandPalette({
         icon: Github,
         badge: "Code",
         action: () => {
-          window.open("https://github.com", "_blank");
+          window.open("https://github.com/saikrishnayemineni", "_blank");
           onClose();
         },
       },
