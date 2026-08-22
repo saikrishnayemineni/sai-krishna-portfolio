@@ -167,10 +167,142 @@ export function CommandPalette({
         },
       },
       {
+        id: "nav-all-projects",
+        category: "Navigation",
+        title: "All 10 Production Projects",
+        subtitle: "Explore complete 10-project engineering showcase",
+        icon: Cpu,
+        badge: "10 Projects",
+        action: () => {
+          document.getElementById("all-projects")?.scrollIntoView({ behavior: "smooth" });
+          onClose();
+        },
+      },
+      {
+        id: "proj-1",
+        category: "AI Diagnostics",
+        title: "01 · Agentic Clinical Intelligence",
+        subtitle: "LangGraph Multi-Agent EHR Triage Graph",
+        icon: Activity,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/agentic-clinical-triage", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-2",
+        category: "AI Diagnostics",
+        title: "02 · Production Hybrid RAG & Reranking",
+        subtitle: "Dense + BM25 + Reciprocal Rank Fusion",
+        icon: Database,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/production-hybrid-rag", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-3",
+        category: "AI Diagnostics",
+        title: "03 · LLMOps Eval & Guardrails",
+        subtitle: "RAG Triad, HIPAA PHI Scrubber & Prometheus",
+        icon: ShieldCheck,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/llmops-eval-guardrails", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-4",
+        category: "AI Diagnostics",
+        title: "04 · Patient Telemetry Kafka Stream",
+        subtitle: "Real-Time FFT DSP & ICU Anomaly Detection",
+        icon: Activity,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/patient-telemetry-kafka-stream", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-5",
+        category: "AI Diagnostics",
+        title: "05 · Clinical LLM Fine-Tuning & vLLM",
+        subtitle: "4-bit QLoRA, DoRA, DPO & PagedAttention",
+        icon: Cpu,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/clinical-llm-finetuning-vllm", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-6",
+        category: "AI Diagnostics",
+        title: "06 · Multimodal Medical Vision & Grad-CAM",
+        subtitle: "DenseNet-121 14-Pathology Radiology AI",
+        icon: Layers,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/multimodal-medical-vision", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-7",
+        category: "AI Diagnostics",
+        title: "07 · Enterprise Financial Fraud Engine",
+        subtitle: "XGBoost + LightGBM + TreeSHAP (Deloitte)",
+        icon: Zap,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/fraud-risk-ml-engine", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-8",
+        category: "AI Diagnostics",
+        title: "08 · Autonomous Text-to-SQL Data Agent",
+        subtitle: "DuckDB OLAP + AST Security + Self-Healing",
+        icon: Layers,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/autonomous-sql-data-agent", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-9",
+        category: "AI Diagnostics",
+        title: "09 · Automated MLOps Drift Pipeline",
+        subtitle: "Evidently AI + PSI + MLflow Champion-Challenger",
+        icon: Activity,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/automated-mlops-drift-pipeline", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-10",
+        category: "AI Diagnostics",
+        title: "10 · Ambient Clinical Voice Scribe & FHIR",
+        subtitle: "Whisper-v3 + BioBERT NER + HL7 FHIR R4",
+        icon: Sparkles,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/clinical-voice-scribe-soap", "_blank");
+          onClose();
+        },
+      },
+      {
         id: "action-github",
         category: "Actions",
         title: "Open GitHub Repositories",
-        subtitle: "View agentic AI systems and open-source code",
+        subtitle: "View all 10 open-source repositories",
         icon: Github,
         badge: "Code",
         action: () => {

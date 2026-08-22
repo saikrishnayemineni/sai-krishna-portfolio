@@ -23,6 +23,7 @@ import { NumberCounter } from "@/components/NumberCounter";
 import { NeuralCanvas } from "@/components/NeuralCanvas";
 import { CommandPalette } from "@/components/CommandPalette";
 import { AIProfileTerminal } from "@/components/AIProfileTerminal";
+import { ProjectsShowcase } from "@/components/ProjectsShowcase";
 
 const spring = { type: "spring" as const, stiffness: 300, damping: 20 };
 
@@ -816,6 +817,11 @@ export default function Portfolio() {
         {/* Real-Time Clinical EHR & Risk Stratification Dashboard */}
         <TiltCard className="card-surface col-span-12 border-t-2 border-t-rose-500/80">
           <ClinicalDashboardCard />
+        </TiltCard>
+
+        {/* Complete 10-Project Engineering Portfolio Grid */}
+        <TiltCard tilt={false} className="card-surface col-span-12 p-7">
+          <ProjectsShowcase />
         </TiltCard>
 
         {/* Skills & Tech Stack with Live Search & Experience Telemetry */}

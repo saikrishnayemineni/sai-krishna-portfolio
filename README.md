@@ -46,6 +46,23 @@
 
 ---
 
+## 🏆 Complete 10-Project Production Engineering Showcase
+
+| # | Project Name | Category | Core Stack | Repository Link |
+| :-: | :--- | :--- | :--- | :--- |
+| **01** | **`agentic-clinical-triage`** | Healthcare AI | LangGraph, LangChain, PostgreSQL, FastAPI | [GitHub Repo ↗](https://github.com/saikrishnayemineni/agentic-clinical-triage) |
+| **02** | **`production-hybrid-rag`** | Generative AI | pgvector, Okapi BM25, Cross-Encoder RRF, CRAG | [GitHub Repo ↗](https://github.com/saikrishnayemineni/production-hybrid-rag) |
+| **03** | **`llmops-eval-guardrails`** | LLMOps & Guardrails | Ragas, HIPAA PHI Scrubber, Prometheus, Docker | [GitHub Repo ↗](https://github.com/saikrishnayemineni/llmops-eval-guardrails) |
+| **04** | **`patient-telemetry-kafka-stream`**| Real-Time Streaming | Apache Kafka, Fast Fourier DSP, WebSocket | [GitHub Repo ↗](https://github.com/saikrishnayemineni/patient-telemetry-kafka-stream) |
+| **05** | **`clinical-llm-finetuning-vllm`** | LLM Fine-Tuning | 4-bit QLoRA, DoRA, DPO, vLLM PagedAttention | [GitHub Repo ↗](https://github.com/saikrishnayemineni/clinical-llm-finetuning-vllm) |
+| **06** | **`multimodal-medical-vision`** | Medical Vision | DenseNet-121, Grad-CAM Saliency, BioViL | [GitHub Repo ↗](https://github.com/saikrishnayemineni/multimodal-medical-vision) |
+| **07** | **`fraud-risk-ml-engine`** | Enterprise FinTech | XGBoost, LightGBM, TreeSHAP, Feature Store | [GitHub Repo ↗](https://github.com/saikrishnayemineni/fraud-risk-ml-engine) |
+| **08** | **`autonomous-sql-data-agent`** | Data Agents & OLAP | DuckDB OLAP, AST Guardrails, Self-Healing SQL | [GitHub Repo ↗](https://github.com/saikrishnayemineni/autonomous-sql-data-agent) |
+| **09** | **`automated-mlops-drift-pipeline`**| Production MLOps | Evidently AI, PSI/K-S Tests, MLflow Tournament | [GitHub Repo ↗](https://github.com/saikrishnayemineni/automated-mlops-drift-pipeline) |
+| **10** | **`clinical-voice-scribe-soap`** | Ambient Speech AI | Whisper-v3, BioBERT NER, ICD-10, HL7 FHIR R4 | [GitHub Repo ↗](https://github.com/saikrishnayemineni/clinical-voice-scribe-soap) |
+
+---
+
 ## 🛠️ Tech Stack & Architecture
 
 | Category | Technologies & Tools |
