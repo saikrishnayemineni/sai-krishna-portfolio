@@ -4,11 +4,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://sai-krishna-portfolio-drab.vercel.app"),
   title: "Sai Krishna Yemineni · Production AI/ML Engineer | Agentic AI, RAG & LLMOps",
-  description: "AI/ML Engineer at Johnson & Johnson (Ex-Deloitte) with 4+ years of experience engineering 10 production Agentic AI systems, High-Throughput RAG, Fine-Tuned Clinical LLMs, MLOps Drift Pipelines, and Healthcare Telemetry. Actively seeking new opportunities.",
+  description: "AI/ML Engineer at Johnson & Johnson (Ex-Deloitte) with 4+ years of experience engineering 15+ production Agentic AI systems, Autonomous Deep Research, High-Throughput RAG, Fine-Tuned Clinical LLMs, MLOps Drift Pipelines, and Healthcare Telemetry. Actively seeking new opportunities.",
   keywords: [
     "Sai Krishna Yemineni",
     "Production AI Engineer",
     "Senior Machine Learning Engineer",
+    "Autonomous Deep Research",
     "Agentic AI",
     "LangGraph Multi-Agent",
     "Hybrid RAG",
@@ -16,6 +17,11 @@ export const metadata: Metadata = {
     "Clinical LLM Fine-Tuning",
     "vLLM PagedAttention",
     "Multimodal Medical Vision",
+    "Neural Audio Intelligence",
+    "Multi-Agent Swarm OS",
+    "Spatial Video Analytics",
+    "Quant ML Trading Engine",
+    "Realtime WebRTC Voice AI",
     "Fraud Risk ML Engine",
     "Autonomous SQL Agent",
     "Automated MLOps Drift",
@@ -30,14 +36,14 @@ export const metadata: Metadata = {
   authors: [{ name: "Sai Krishna Yemineni" }],
   openGraph: {
     title: "Sai Krishna Yemineni · Production AI/ML Engineer",
-    description: "AI/ML Engineer @ Johnson & Johnson (Ex-Deloitte) engineering 10 production Agentic AI, RAG, and LLMOps systems. Open to new opportunities.",
+    description: "AI/ML Engineer @ Johnson & Johnson (Ex-Deloitte) engineering 15+ production Agentic AI, Deep Research, RAG, and LLMOps systems. Open to new opportunities.",
     siteName: "Sai Krishna Yemineni Portfolio",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Sai Krishna Yemineni · Production AI/ML Engineer",
-    description: "AI/ML Engineer @ Johnson & Johnson (Ex-Deloitte) engineering 10 production Agentic AI, RAG, and LLMOps systems.",
+    description: "AI/ML Engineer @ Johnson & Johnson (Ex-Deloitte) engineering 15+ production Agentic AI, Deep Research, RAG, and LLMOps systems.",
   },
 };
 
