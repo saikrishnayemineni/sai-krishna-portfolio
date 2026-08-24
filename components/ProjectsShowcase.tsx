@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Github, ExternalLink, Code2, Sparkles, Activity, ShieldCheck,
-  Cpu, Database, ArrowUpRight, CheckCircle2, Layers, Zap, Search
+  Cpu, Database, ArrowUpRight, CheckCircle2, Layers, Zap, Search,
+  Music, Bot, Eye, TrendingUp, Mic, Radio, Video, Headphones
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
@@ -12,7 +13,7 @@ export type ProjectItem = {
   id: string;
   number: string;
   title: string;
-  category: "genai" | "clinical" | "mlops" | "enterprise";
+  category: "genai" | "clinical" | "mlops" | "enterprise" | "multimedia";
   categoryLabel: string;
   tagline: string;
   description: string;
@@ -214,6 +215,101 @@ export const PROJECTS: ProjectItem[] = [
     highlightBadge: "HL7 FHIR R4",
     badgeColor: "border-purple-500/40 bg-purple-500/10 text-purple-300",
     icon: Sparkles
+  },
+  {
+    id: "neural-audio-stream-genai",
+    number: "11",
+    title: "Neural Music Recommendation, Stem Demixing & Audio Intelligence",
+    category: "multimedia",
+    categoryLabel: "Multimedia & Audio AI",
+    tagline: "CLAP Audio Embeddings + Two-Tower RecSys + Demucs Stem Separation + Real-Time DSP",
+    description: "High-performance multimedia audio intelligence engine combining Contrastive Language-Audio Pretraining (CLAP), real-time 4-stem waveform source separation (Demucs v4), spectral DSP audio feature synthesis (MFCC, Chroma, Tempogram), and sub-8ms two-tower neural collaborative filtering.",
+    githubUrl: "https://github.com/saikrishnayemineni/neural-audio-stream-genai",
+    techStack: ["CLAP", "Demucs v4", "Two-Tower RecSys", "Librosa DSP", "FastAPI", "Streamlit"],
+    metrics: [
+      { label: "Retrieval Latency", value: "Sub-8ms", color: "text-cyan-400" },
+      { label: "RecSys Precision", value: "98.2% NDCG@10", color: "text-emerald-400" },
+      { label: "Demixing Gain", value: "+9.2 dB SDR", color: "text-purple-400" }
+    ],
+    highlightBadge: "Neural Audio AI",
+    badgeColor: "border-cyan-500/40 bg-cyan-500/10 text-cyan-300",
+    icon: Music
+  },
+  {
+    id: "autonomous-multiagent-swarm-os",
+    number: "12",
+    title: "Enterprise Multi-Agent Swarm Orchestrator & Task DAG Engine",
+    category: "genai",
+    categoryLabel: "Agentic AI & Swarms",
+    tagline: "Stateful Directed Acyclic Graphs + AutoGen/CrewAI Swarms + Docker Code Sandbox + Graph Memory",
+    description: "Autonomous hierarchical multi-agent coordination operating system with planning, dynamic task decomposition, tool use reflection, sandboxed Docker/Wasm code execution, and graph memory with vector state checkpointing.",
+    githubUrl: "https://github.com/saikrishnayemineni/autonomous-multiagent-swarm-os",
+    techStack: ["LangGraph", "AutoGen Swarms", "Docker Sandbox", "Neo4j Graph", "FastAPI", "Streamlit"],
+    metrics: [
+      { label: "Task Convergence", value: "99.4% Success", color: "text-emerald-400" },
+      { label: "Swarm Step Time", value: "< 150ms", color: "text-cyan-400" },
+      { label: "Security Sandbox", value: "Zero Leakage", color: "text-purple-400" }
+    ],
+    highlightBadge: "Swarm Intelligence",
+    badgeColor: "border-purple-500/40 bg-purple-500/10 text-purple-300",
+    icon: Bot
+  },
+  {
+    id: "spatial-video-multimodal-analytics",
+    number: "13",
+    title: "Real-Time Spatial Video Intelligence & Multi-Object Tracking",
+    category: "multimedia",
+    categoryLabel: "Computer Vision & Spatial AI",
+    tagline: "YOLOv10 + ByteTrack Multi-Camera Re-ID + 3D Spatial Geometry + TensorRT FP16",
+    description: "High-throughput edge video analytics pipeline delivering zero-shot open-vocabulary object detection, Kalman filter spatio-temporal tracking across asynchronous RTSP video feeds, dynamic heatmap spatial occupancy, and TensorRT FP16 GPU acceleration.",
+    githubUrl: "https://github.com/saikrishnayemineni/spatial-video-multimodal-analytics",
+    techStack: ["YOLOv10", "ByteTrack", "TensorRT", "OpenCV", "FastAPI", "Streamlit"],
+    metrics: [
+      { label: "Edge Inference", value: "140+ FPS TensorRT", color: "text-emerald-400" },
+      { label: "Tracking MOTA", value: "99.1% Accuracy", color: "text-cyan-400" },
+      { label: "Stream Feeds", value: "Multi-RTSP SIMD", color: "text-amber-400" }
+    ],
+    highlightBadge: "Real-Time Edge Vision",
+    badgeColor: "border-amber-500/40 bg-amber-500/10 text-amber-300",
+    icon: Eye
+  },
+  {
+    id: "deep-quant-risk-trading-engine",
+    number: "14",
+    title: "Deep Reinforcement Learning Quant Execution & Risk Engine",
+    category: "enterprise",
+    categoryLabel: "ML & Quantitative Finance",
+    tagline: "Order Book Microstructure L3 + PPO Reinforcement Learning + Real-Time VaR Monte Carlo + Rust FFI",
+    description: "Ultra-low latency algorithmic trading and market risk engine utilizing Proximal Policy Optimization (PPO), Temporal Convolutional Networks (TCN) for limit order book alpha generation, and distributed Monte Carlo Value-at-Risk (VaR 99.9%) simulations.",
+    githubUrl: "https://github.com/saikrishnayemineni/deep-quant-risk-trading-engine",
+    techStack: ["PyTorch", "PPO / SB3", "Rust FFI", "TimescaleDB", "FastAPI", "Streamlit"],
+    metrics: [
+      { label: "Tick Execution", value: "0.42 ms", color: "text-cyan-400" },
+      { label: "Sharpe Ratio", value: "2.84 Alpha", color: "text-emerald-400" },
+      { label: "VaR Precision", value: "99.9% Risk Bound", color: "text-rose-400" }
+    ],
+    highlightBadge: "DRL & Sub-ms ML",
+    badgeColor: "border-emerald-500/40 bg-emerald-500/10 text-emerald-300",
+    icon: TrendingUp
+  },
+  {
+    id: "realtime-multimodal-voice-stream",
+    number: "15",
+    title: "Ultra-Low Latency Multimodal WebRTC Voice & Vision Agent",
+    category: "genai",
+    categoryLabel: "Multimodal Streaming AI",
+    tagline: "Full-Duplex WebRTC + Deepgram Nova-2 + Cartesia Sonic TTS + GPT-4o-Realtime + Vision VAD",
+    description: "Sub-250ms glass-to-glass conversational streaming assistant with full-duplex audio, acoustic echo cancellation, interruption-handling barge-in VAD, and real-time screen/camera visual perception.",
+    githubUrl: "https://github.com/saikrishnayemineni/realtime-multimodal-voice-stream",
+    techStack: ["WebRTC", "Deepgram Nova-2", "Cartesia TTS", "Vision-Language", "FastAPI", "Streamlit"],
+    metrics: [
+      { label: "Glass-to-Glass", value: "240ms Latency", color: "text-cyan-400" },
+      { label: "Audio Streaming", value: "Bidirectional WebRTC", color: "text-emerald-400" },
+      { label: "Barge-In Recall", value: "100% VAD Interruption", color: "text-purple-400" }
+    ],
+    highlightBadge: "Full-Duplex Voice AI",
+    badgeColor: "border-purple-500/40 bg-purple-500/10 text-purple-300",
+    icon: Mic
   }
 ];
 
@@ -238,13 +334,13 @@ export function ProjectsShowcase() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-cyan-300">
             <Sparkles size={13} className="text-cyan-400" />
-            <span>Complete 10-Project Production Engineering Portfolio</span>
+            <span>Complete 15-Project Production Engineering Portfolio</span>
           </div>
           <h3 className="mt-2 text-3xl sm:text-4xl font-extrabold tracking-[-.04em] text-white">
-            Proven AI Architectures Across <span className="text-gradient">Healthcare, LLMs & MLOps</span>
+            Proven AI Architectures Across <span className="text-gradient">Multimedia, LLMs, Agents & Quant ML</span>
           </h3>
           <p className="mt-2 max-w-3xl text-sm sm:text-base text-zinc-400 font-normal">
-            10 end-to-end production systems built in Python/PyTorch with automated benchmarks, REST APIs, Streamlit UIs, Dockerfiles, and GitHub Actions CI/CD pipelines.
+            15 end-to-end production systems built in Python/PyTorch with automated benchmarks, REST APIs, Streamlit UIs, Dockerfiles, and GitHub Actions CI/CD pipelines.
           </p>
         </div>
 
@@ -256,18 +352,19 @@ export function ProjectsShowcase() {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search 10 projects..."
+              placeholder="Search 15 projects..."
               className="w-full sm:w-48 rounded-xl border border-zinc-800 bg-zinc-950/80 pl-8 pr-3 py-1.5 text-xs text-white placeholder-zinc-500 focus:outline-none focus:border-cyan-500/50"
             />
           </div>
 
           <div className="flex flex-wrap gap-1.5">
             {[
-              { id: "all", label: "All (10)" },
-              { id: "genai", label: "Agentic & LLMs (3)" },
-              { id: "clinical", label: "Clinical & Vision (3)" },
-              { id: "mlops", label: "MLOps & Eval (2)" },
-              { id: "enterprise", label: "Enterprise & SQL (2)" }
+              { id: "all", label: "All (15)" },
+              { id: "genai", label: "Agentic & LLMs (5)" },
+              { id: "multimedia", label: "Multimedia & Audio/Vision (2)" },
+              { id: "clinical", label: "Clinical & Healthcare (3)" },
+              { id: "enterprise", label: "Enterprise & Quant (3)" },
+              { id: "mlops", label: "MLOps & Drift (2)" }
             ].map((tab) => (
               <button
                 key={tab.id}

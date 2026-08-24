@@ -46,7 +46,7 @@
 
 ---
 
-## 🏆 Complete 10-Project Production Engineering Showcase
+## 🏆 Complete 15-Project Production Engineering Showcase
 
 | # | Project Name | Category | Core Stack | Repository Link |
 | :-: | :--- | :--- | :--- | :--- |
@@ -60,6 +60,11 @@
 | **08** | **`autonomous-sql-data-agent`** | Data Agents & OLAP | DuckDB OLAP, AST Guardrails, Self-Healing SQL | [GitHub Repo ↗](https://github.com/saikrishnayemineni/autonomous-sql-data-agent) |
 | **09** | **`automated-mlops-drift-pipeline`**| Production MLOps | Evidently AI, PSI/K-S Tests, MLflow Tournament | [GitHub Repo ↗](https://github.com/saikrishnayemineni/automated-mlops-drift-pipeline) |
 | **10** | **`clinical-voice-scribe-soap`** | Ambient Speech AI | Whisper-v3, BioBERT NER, ICD-10, HL7 FHIR R4 | [GitHub Repo ↗](https://github.com/saikrishnayemineni/clinical-voice-scribe-soap) |
+| **11** | **`neural-audio-stream-genai`** | Multimedia & Audio AI | CLAP, Demucs v4, Two-Tower RecSys, DSP, FastAPI | [GitHub Repo ↗](https://github.com/saikrishnayemineni/neural-audio-stream-genai) |
+| **12** | **`autonomous-multiagent-swarm-os`** | Agentic AI & Swarms | LangGraph, AutoGen Swarms, Docker Sandbox, Neo4j | [GitHub Repo ↗](https://github.com/saikrishnayemineni/autonomous-multiagent-swarm-os) |
+| **13** | **`spatial-video-multimodal-analytics`** | Computer Vision | YOLOv10, ByteTrack, TensorRT, OpenCV, FastAPI | [GitHub Repo ↗](https://github.com/saikrishnayemineni/spatial-video-multimodal-analytics) |
+| **14** | **`deep-quant-risk-trading-engine`** | ML & Quant Finance | PyTorch, PPO / SB3, Rust FFI, TimescaleDB, VaR | [GitHub Repo ↗](https://github.com/saikrishnayemineni/deep-quant-risk-trading-engine) |
+| **15** | **`realtime-multimodal-voice-stream`** | Multimodal Streaming AI | Full-Duplex WebRTC, Deepgram, Cartesia, VAD | [GitHub Repo ↗](https://github.com/saikrishnayemineni/realtime-multimodal-voice-stream) |
 
 ---
 

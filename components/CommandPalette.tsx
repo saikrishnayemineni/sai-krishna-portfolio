@@ -18,7 +18,12 @@ import {
   X,
   GraduationCap,
   Database,
-  Zap
+  Zap,
+  Music,
+  Bot,
+  Eye,
+  TrendingUp,
+  Mic
 } from "lucide-react";
 
 interface ActionItem {
@@ -171,10 +176,10 @@ export function CommandPalette({
       {
         id: "nav-all-projects",
         category: "Navigation",
-        title: "All 10 Production Projects",
-        subtitle: "Explore complete 10-project engineering showcase",
+        title: "All 15 Production Projects",
+        subtitle: "Explore complete 15-project engineering showcase",
         icon: Cpu,
-        badge: "10 Projects",
+        badge: "15 Projects",
         action: () => {
           document.getElementById("all-projects")?.scrollIntoView({ behavior: "smooth" });
           onClose();
@@ -301,10 +306,70 @@ export function CommandPalette({
         },
       },
       {
+        id: "proj-11",
+        category: "AI Diagnostics",
+        title: "11 · Neural Music & Audio Intelligence",
+        subtitle: "CLAP Embeddings + Demucs Stem Separation + RecSys",
+        icon: Music,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/neural-audio-stream-genai", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-12",
+        category: "AI Diagnostics",
+        title: "12 · Multi-Agent Swarm Orchestrator OS",
+        subtitle: "LangGraph + AutoGen Swarms + Docker Sandbox",
+        icon: Bot,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/autonomous-multiagent-swarm-os", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-13",
+        category: "AI Diagnostics",
+        title: "13 · Real-Time Spatial Video & Tracking",
+        subtitle: "YOLOv10 + ByteTrack Multi-Camera + TensorRT",
+        icon: Eye,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/spatial-video-multimodal-analytics", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-14",
+        category: "AI Diagnostics",
+        title: "14 · Deep Reinforcement Learning Quant ML",
+        subtitle: "PPO + L3 Order Book + Real-Time VaR Monte Carlo",
+        icon: TrendingUp,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/deep-quant-risk-trading-engine", "_blank");
+          onClose();
+        },
+      },
+      {
+        id: "proj-15",
+        category: "AI Diagnostics",
+        title: "15 · Real-Time WebRTC Voice & Vision Agent",
+        subtitle: "Full-Duplex Deepgram + Cartesia TTS + Vision VAD",
+        icon: Mic,
+        badge: "GitHub",
+        action: () => {
+          window.open("https://github.com/saikrishnayemineni/realtime-multimodal-voice-stream", "_blank");
+          onClose();
+        },
+      },
+      {
         id: "action-github",
         category: "Actions",
         title: "Open GitHub Repositories",
-        subtitle: "View all 10 open-source repositories",
+        subtitle: "View all 15 open-source repositories",
         icon: Github,
         badge: "Code",
         action: () => {

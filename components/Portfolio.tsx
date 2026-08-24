@@ -819,7 +819,7 @@ export default function Portfolio() {
           <ClinicalDashboardCard />
         </TiltCard>
 
-        {/* Complete 10-Project Engineering Portfolio Grid */}
+        {/* Complete 15-Project Engineering Portfolio Grid */}
         <TiltCard tilt={false} className="card-surface col-span-12 p-7">
           <ProjectsShowcase />
         </TiltCard>
