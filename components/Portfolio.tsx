@@ -5,9 +5,11 @@ import { AnimatePresence, motion } from "framer-motion";
 import {
   ArrowUpRight, BriefcaseBusiness, CheckCircle2, Code2, Download,
   ExternalLink, Github, GraduationCap, Linkedin, Mail, Menu, Phone, ShieldCheck, Sparkles, X,
-  Radio, Zap, Activity, Award, Search, Command, Bot
+  Radio, Zap, Activity, Award, Search, Command, Bot, Film, LayoutGrid
 } from "lucide-react";
 import { useMemo, useState, useEffect } from "react";
+import { NetflixPortfolio } from "@/components/netflix/NetflixPortfolio";
+
 import { Badge } from "@/components/ui/badge";
 import { TiltCard } from "@/components/TiltCard";
 import { CopyButton } from "@/components/CopyButton";
@@ -125,6 +127,7 @@ function AnchorButton({
 }
 
 export default function Portfolio() {
+  const [viewMode, setViewMode] = useState<"netflix" | "bento">("netflix");
   const [category, setCategory] = useState<Category>("all");
   const [skillSearch, setSkillSearch] = useState<string>("");
   const [hoveredNav, setHoveredNav] = useState<string | null>(null);
@@ -156,10 +159,20 @@ export default function Portfolio() {
     [category, skillSearch]
   );
 
+  if (viewMode === "netflix") {
+    return (
+      <NetflixPortfolio
+        viewMode={viewMode}
+        onToggleViewMode={() => setViewMode("bento")}
+      />
+    );
+  }
+
   return (
     <main className="mx-auto min-h-screen w-full max-w-[1440px] px-4 pb-6 pt-4 sm:px-6 lg:px-8 relative">
       {/* Background Neural Synaptic Canvas */}
       <NeuralCanvas />
+
 
       {/* Top Glowing Scroll Progress Bar */}
       <ScrollProgress />
@@ -232,6 +245,15 @@ export default function Portfolio() {
 
           {/* Right Actions (Command Center, CTA & Mobile Toggle) */}
           <div className="flex items-center gap-2">
+            {/* Switch to Netflix View Button */}
+            <button
+              onClick={() => setViewMode("netflix")}
+              className="focus-ring hidden sm:flex items-center gap-1.5 rounded-xl border border-red-500/40 bg-red-600/15 px-3 py-2 text-xs font-semibold text-red-300 hover:bg-red-600/30 hover:text-white transition-all shadow-sm group hover:scale-105"
+            >
+              <Film size={13} className="text-red-400 group-hover:scale-110 transition-transform" />
+              <span>Netflix View</span>
+            </button>
+
             {/* Command Palette Trigger Button */}
             <button
               id="cmd-palette-toggle"

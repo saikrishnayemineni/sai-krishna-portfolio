@@ -311,3 +311,58 @@ body::before {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* ==========================================================================
+   NETFLIX STREAMING UI ENGINE & CINEMATIC STYLING
+   ========================================================================== */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.netflix-hero-mask {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+}
+
+.netflix-vignette {
+  background: radial-gradient(circle at center, transparent 30%, rgba(20, 20, 20, 0.7) 70%, #141414 100%),
+              linear-gradient(to top, #141414 0%, transparent 40%),
+              linear-gradient(to right, rgba(20, 20, 20, 0.95) 0%, rgba(20, 20, 20, 0.6) 35%, transparent 65%);
+}
+
+.netflix-red-glow {
+  box-shadow: 0 0 35px -5px rgba(229, 9, 20, 0.4);
+}
+
+.netflix-red-gradient {
+  background: linear-gradient(135deg, #E50914 0%, #b81d24 100%);
+}
+
+.netflix-card-hover {
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.netflix-card-hover:hover {
+  transform: scale(1.06) translateY(-4px);
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.9), 0 0 25px -5px rgba(229, 9, 20, 0.25);
+  z-index: 30;
+}
+
+.netflix-pill {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.netflix-top10-number {
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  -webkit-text-stroke: 4px #595959;
+  color: #141414;
+  line-height: 0.8;
+}
+
